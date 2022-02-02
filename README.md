@@ -1,4 +1,4 @@
-# NVIDIA HPC SDK Training (January 2022)
+# Chicoma GPU Training by NVIDIA
 
 This repository contains the code examples that go along with the NVIDIA HPC SDK training session hosted by NERSC, OLCF, and ALCF (https://www.nersc.gov/users/training/events/nvidia-hpcsdk-training-jan2022/).
 
