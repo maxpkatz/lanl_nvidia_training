@@ -16,6 +16,7 @@ You can find the examples at `kokkos/example/tutorial`
 
 To get an interactive allocation on a compute node:
 ```
+#LANL Chicoma
 salloc -p gpu
 ```
 
