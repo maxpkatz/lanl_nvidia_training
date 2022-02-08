@@ -46,7 +46,7 @@ sbatch submit_dgetrf_lanl.sh
 Recompile the code to target the GPU.
 
 ```
-nvfortran -o testdgetrf_gpu testdgetrf.F90 -stdpar -cuda -gpu=nvlamath,cuda11.4 -cudalib=nvlamath,curand
+nvfortran -o testdgetrf_gpu testdgetrf.F90 -stdpar -cuda -gpu=nvlamath -cudalib=nvlamath,curand
 ```
 
 Note that because we use the `-stdpar` option in the GPU build, all Fortran allocatable arrays
